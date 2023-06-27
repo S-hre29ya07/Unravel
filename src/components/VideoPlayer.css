@@ -1,6 +1,13 @@
 .videoParticularPlayer {
-  height: 100%;
   width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 767px) {
+  .videoParticularPlayer {
+    object-fit: cover;
+  }
 }
 
 .videoFrames {
@@ -11,5 +18,4 @@ video {
   width: 100%;
   height: 100%;
   scroll-snap-align: start;
-  /* position: relative; */
 }

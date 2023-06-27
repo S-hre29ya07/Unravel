@@ -95,7 +95,6 @@ export default function App() {
     "message": "SuccessFull"
   }
     ;
-  // console.log(jsonData.data.recommendation);
 
   return (
     <div className="App">
